@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oftalmologia Malavazi & Toledo | Oftalmologistas em Icaraí, Niterói</title>
+<meta name="description" content="Consultório de oftalmologia em Icaraí, Niterói. Dra. Débora Malavazi e Dr. Saymom Toledo. Consultas cuidadosas e individualizadas. Agende pelo WhatsApp (21) 99116-4490.">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--azul:#0d669f;--azul-esc:#0a3f63;--azul-cl:#e6f0f7;--creme:#fbf6ea;--txt:#1d2b36;--sub:#5b6b78;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;color:var(--txt);background:#fff;line-height:1.6;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1140px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:"DM Serif Display",serif;font-weight:400;line-height:1.15;color:var(--azul-esc)}
+h2{font-size:clamp(1.9rem,4vw,2.6rem)}
+.tag{display:inline-block;font-size:.78rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--azul);margin-bottom:10px}
+svg{width:1.15em;height:1.15em;flex:none}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:14px 24px;border-radius:999px;font-weight:600;transition:.25s}
+.btn-az{background:var(--azul);color:#fff}.btn-az:hover{background:var(--azul-esc);transform:translateY(-2px)}
+.btn-ln{border:2px solid var(--azul);color:var(--azul)}.btn-ln:hover{background:var(--azul);color:#fff}
+.btn-zap{background:#25d366;color:#fff}.btn-zap:hover{background:#1ebe5b;transform:translateY(-2px)}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.93);backdrop-filter:blur(10px);border-bottom:1px solid #e9eef2}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+.marca{display:flex;align-items:center;gap:10px}
+.marca img{height:30px}
+.marca b{font-family:"DM Serif Display",serif;font-weight:400;font-size:1.15rem;color:var(--azul-esc);line-height:1.05}
+.marca small{display:block;font-family:Inter;font-size:.62rem;letter-spacing:.2em;color:var(--azul);text-transform:uppercase}
+.menu{display:flex;gap:26px;font-size:.93rem;font-weight:500;color:var(--sub)}
+.menu a:hover{color:var(--azul)}
+.nav .btn{padding:10px 18px;font-size:.9rem}
+@media(max-width:900px){.menu{display:none}}
+@media(max-width:480px){.nav .btn span{display:none}.nav .btn{padding:11px}}
+/* hero */
+.hero{background:linear-gradient(160deg,var(--creme) 0%,#fff 60%,var(--azul-cl) 100%);padding:70px 0 80px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-180px;top:-120px;width:520px;height:520px;border-radius:50%;border:60px solid rgba(13,102,159,.06)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;position:relative;z-index:1}
+.nota{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid #e3e9ee;border-radius:999px;padding:7px 14px;font-size:.88rem;font-weight:600;margin-bottom:22px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.nota .est{color:#f4b400;letter-spacing:1px}
+.nota span{color:var(--sub);font-weight:500}
+.hero h1{font-size:clamp(2.4rem,5.4vw,3.9rem);margin-bottom:18px}
+.hero h1 em{font-style:normal;color:var(--azul)}
+.hero p.lead{font-size:1.1rem;color:var(--sub);max-width:540px;margin-bottom:30px}
+.acoes{display:flex;flex-wrap:wrap;gap:12px}
+.medicos-mini{display:flex;gap:22px;margin-top:34px;flex-wrap:wrap;font-size:.9rem;color:var(--sub)}
+.medicos-mini div{display:flex;align-items:center;gap:8px}
+.medicos-mini i{width:8px;height:8px;border-radius:50%;background:var(--azul)}
+.foto-hero{position:relative}
+.foto-hero img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:200px 200px var(--r) var(--r);box-shadow:0 30px 60px rgba(10,63,99,.18)}
+.selo{position:absolute;left:-28px;bottom:36px;background:#fff;border-radius:16px;padding:14px 18px;display:flex;align-items:center;gap:12px;box-shadow:0 14px 34px rgba(0,0,0,.12)}
+.selo img{width:46px}
+.selo b{display:block;color:var(--azul-esc);font-size:.95rem}
+.selo small{color:var(--sub);font-size:.8rem}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:40px}.foto-hero{max-width:420px;margin-inline:auto;width:100%}.selo{left:12px}.hero{padding:44px 0 60px}}
+/* seções */
+section{padding:90px 0}
+.cab{max-width:640px;margin-bottom:46px}
+.cab p{color:var(--sub);margin-top:12px}
+.centro{text-align:center;margin-inline:auto}
+/* sobre */
+.sobre .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}
+.sobre-logo{background:var(--creme);border-radius:var(--r);padding:60px 40px;display:grid;place-items:center;text-align:center}
+.sobre-logo img{width:min(300px,80%)}
+.sobre-logo b{font-family:"DM Serif Display",serif;font-weight:400;font-size:1.6rem;color:var(--azul-esc);margin-top:20px;display:block}
+.sobre-logo small{letter-spacing:.25em;color:var(--azul);font-size:.72rem;font-weight:600}
+.sobre p{color:var(--sub);margin-bottom:16px}
+.sobre ul{list-style:none;display:grid;gap:12px;margin-top:22px}
+.sobre li{display:flex;gap:12px;align-items:flex-start}
+.sobre li::before{content:"";flex:none;width:22px;height:22px;margin-top:2px;border-radius:50%;background:var(--azul) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M5 12l5 5 9-10'/%3E%3C/svg%3E") center/13px no-repeat}
+@media(max-width:860px){.sobre .wrap{grid-template-columns:1fr;gap:36px}}
+/* atendimento */
+.atend{background:var(--azul-cl)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:#fff;border-radius:var(--r);padding:30px 24px;transition:.3s;border:1px solid transparent}
+.card:hover{transform:translateY(-6px);border-color:#cfe0ec;box-shadow:0 18px 36px rgba(10,63,99,.1)}
+.ic{width:54px;height:54px;border-radius:14px;background:var(--azul);color:#fff;display:grid;place-items:center;margin-bottom:18px}
+.ic svg{width:26px;height:26px}
+.card h3{font-size:1.3rem;margin-bottom:8px}
+.card p{color:var(--sub);font-size:.94rem}
+@media(max-width:980px){.cards{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.cards{grid-template-columns:1fr}}
+/* médicos */
+.meds{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.med{border:1px solid #e3e9ee;border-radius:var(--r);padding:34px;position:relative;overflow:hidden}
+.med::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:var(--azul)}
+.ini{width:64px;height:64px;border-radius:50%;background:var(--creme);color:var(--azul);font-family:"DM Serif Display",serif;font-size:1.6rem;display:grid;place-items:center;margin-bottom:18px}
+.med h3{font-size:1.6rem}
+.med .esp{color:var(--azul);font-weight:600;font-size:.92rem;margin:4px 0 16px}
+.med ul{list-style:none;color:var(--sub);display:grid;gap:8px;margin-bottom:20px;font-size:.95rem}
+.med li{padding-left:18px;position:relative}
+.med li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--azul)}
+.med a.ig{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--azul);font-size:.92rem}
+.extra{margin-top:26px;text-align:center;color:var(--sub);background:var(--creme);border-radius:var(--r);padding:20px}
+@media(max-width:760px){.meds{grid-template-columns:1fr}.med{padding:28px 22px}}
+/* passos */
+.passos{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:p}
+.passo{padding:28px;border-radius:var(--r);background:#fff;border:1px solid #e3e9ee;position:relative}
+.passo::before{counter-increment:p;content:"0" counter(p);font-family:"DM Serif Display",serif;font-size:2.6rem;color:var(--azul);opacity:.25;position:absolute;right:22px;top:12px}
+.passo h3{font-size:1.25rem;margin-bottom:8px}
+.passo p{color:var(--sub);font-size:.94rem}
+@media(max-width:820px){.passos{grid-template-columns:1fr}}
+/* estrutura */
+.estr{background:var(--creme)}
+.estr .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.estr .item{background:#fff;border-radius:var(--r);padding:26px}
+.estr .item h3{font-size:1.15rem;margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.estr .item h3 svg{color:var(--azul);width:24px;height:24px}
+.estr .item p{color:var(--sub);font-size:.93rem}
+@media(max-width:820px){.estr .grid{grid-template-columns:1fr}}
+/* avaliações */
+.resumo{display:flex;align-items:center;gap:14px;justify-content:center;margin-top:16px;flex-wrap:wrap}
+.resumo strong{font-family:"DM Serif Display",serif;font-size:2.4rem;color:var(--azul-esc);font-weight:400}
+.resumo .est{color:#f4b400;font-size:1.3rem;letter-spacing:2px}
+.deps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.dep{background:#fff;border:1px solid #e3e9ee;border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:14px}
+.dep .est{color:#f4b400;letter-spacing:2px}
+.dep p{color:var(--sub);font-size:.95rem;flex:1}
+.dep b{color:var(--azul-esc);font-size:.92rem}
+.dep b small{display:block;color:var(--sub);font-weight:400;font-size:.78rem}
+@media(max-width:900px){.deps{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.deps{grid-template-columns:1fr}}
+/* contato */
+.contato{background:var(--azul-esc);color:#fff}
+.contato h2{color:#fff}
+.contato .tag{color:#9cc8e8}
+.contato .wrap{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.info{display:grid;gap:22px;margin:30px 0}
+.info>div{display:flex;gap:14px}.info>div>div{min-width:0}
+.info svg{width:24px;height:24px;color:#9cc8e8;margin-top:2px}
+.info b{display:block;margin-bottom:2px}
+.info span,.info a{color:#c9dbe8;font-size:.95rem}
+.info a:hover{color:#fff}
+.horas{display:grid;grid-template-columns:auto auto;gap:2px 22px;color:#c9dbe8;font-size:.95rem}
+.contato .wrap>*{min-width:0}.info a{overflow-wrap:anywhere}
+.mapa{border-radius:var(--r);overflow:hidden;min-height:420px;height:100%}
+.mapa iframe{width:100%;height:100%;min-height:420px;border:0;display:block}
+@media(max-width:860px){.contato .wrap{grid-template-columns:1fr}.mapa,.mapa iframe{min-height:320px}}
+footer{background:#072c45;color:#9fb6c6;padding:34px 0;font-size:.88rem}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+footer .marca b{color:#fff}
+footer .marca small{color:#9cc8e8}
+footer a:hover{color:#fff}
+.flut{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 10px 26px rgba(37,211,102,.45);transition:.25s}
+.flut:hover{transform:scale(1.08)}
+.flut svg{width:32px;height:32px}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+.reveal.on{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.41 1.3-1.95 1.35-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.92-4.66-4.1-.13-.18-1.1-1.47-1.1-2.81s.7-2 .95-2.27c.25-.27.54-.34.72-.34h.52c.17 0 .4-.06.62.47.24.56.79 1.92.86 2.06.07.14.11.3.02.48-.09.18-.14.3-.27.46l-.41.48c-.14.14-.28.29-.12.56.16.27.71 1.17 1.52 1.89 1.04.93 1.92 1.22 2.19 1.35.27.14.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.66-.17 1.33Z"/></symbol>
+  <symbol id="i-olho" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></g></symbol>
+  <symbol id="i-escudo" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6l-8-3Z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
+  <symbol id="i-lupa" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></g></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  <symbol id="i-relogio" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></g></symbol>
+  <symbol id="i-acess" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="4.5" r="1.8"/><path d="M5 8.5h14M12 8.5V14m0 0-3.5 6.5M12 14l3.5 6.5"/></g></symbol>
+  <symbol id="i-cartao" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/></g></symbol>
+  <symbol id="i-carro" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M5 16V11l2-5h10l2 5v5M3 16h18v3H3z"/><circle cx="7.5" cy="13" r=".8" fill="currentColor"/><circle cx="16.5" cy="13" r=".8" fill="currentColor"/></g></symbol>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="marca"><img src="img/logo.png" alt="Logo Oftalmologia Malavazi & Toledo"><b>Malavazi &amp; Toledo<small>Oftalmologia</small></b></a>
+    <nav class="menu"><a href="#sobre">O consultório</a><a href="#medicos">Médicos</a><a href="#estrutura">Estrutura</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a></nav>
+    <a class="btn btn-zap" href="https://wa.me/5521991164490?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg><span>Agendar</span></a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="nota"><span class="est">★★★★★</span> 5,0 <span>· 24 avaliações no Google</span></div>
+      <h1>Cuidado completo com a sua <em>visão</em>, em Icaraí</h1>
+      <p class="lead">Consultas oftalmológicas cuidadosas e individualizadas, que vão além da prescrição de óculos: prevenção, diagnóstico e tratamento de doenças oculares.</p>
+      <div class="acoes">
+        <a class="btn btn-zap" href="https://wa.me/5521991164490?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Agende sua consulta</a>
+        <a class="btn btn-ln" href="#medicos">Conheça os médicos</a>
+      </div>
+      <div class="medicos-mini"><div><i></i>Dra. Débora Malavazi</div><div><i></i>Dr. Saymom Toledo</div></div>
+    </div>
+    <div class="foto-hero">
+      <img src="img/consultorio.jpg" alt="Recepção do consultório Oftalmologia Malavazi & Toledo em Icaraí">
+      <div class="selo"><img src="img/logo.png" alt=""><div><b>Rua Miguel de Frias, 51</b><small>Sala 503 · Icaraí, Niterói</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sobre" id="sobre">
+  <div class="wrap">
+    <div class="sobre-logo reveal">
+      <div><img src="img/logo.png" alt="Logo Oftalmologia Malavazi & Toledo" style="margin-inline:auto"><b>Malavazi &amp; Toledo</b><small>OFTALMOLOGIA</small></div>
+    </div>
+    <div class="reveal">
+      <span class="tag">O consultório</span>
+      <h2>Um ambiente profissional e acolhedor para cuidar dos seus olhos</h2>
+      <p style="margin-top:18px">A Oftalmologia Malavazi &amp; Toledo é um consultório de oftalmologia em Niterói – RJ. O atendimento é realizado pelos oftalmologistas Dra. Débora Malavazi e Dr. Saymom Toledo.</p>
+      <p>Nosso objetivo é oferecer um atendimento completo e personalizado, com foco no cuidado contínuo para a preservação da visão.</p>
+      <ul>
+        <li>Consultas cuidadosas e individualizadas</li>
+        <li>Prevenção, diagnóstico e tratamento de doenças oculares</li>
+        <li>Acompanhamento contínuo — agende sua revisão anual</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="atend">
+  <div class="wrap">
+    <div class="cab centro reveal"><span class="tag">Atendimento</span><h2>Muito além dos óculos</h2><p>Os olhos merecem atenção mesmo quando não há sintomas: muitos problemas oculares são silenciosos.</p></div>
+    <div class="cards">
+      <div class="card reveal"><div class="ic"><svg><use href="#i-olho"/></svg></div><h3>Consulta oftalmológica</h3><p>Avaliação completa e detalhada, com explicação de cada procedimento antes do exame.</p></div>
+      <div class="card reveal"><div class="ic"><svg><use href="#i-cal"/></svg></div><h3>Revisão anual</h3><p>Check-up ocular de rotina para acompanhar a saúde dos olhos ao longo do tempo.</p></div>
+      <div class="card reveal"><div class="ic"><svg><use href="#i-lupa"/></svg></div><h3>Retina</h3><p>Atendimento com médicos com formação em retina, como na avaliação da doença macular relacionada à idade.</p></div>
+      <div class="card reveal"><div class="ic"><svg><use href="#i-escudo"/></svg></div><h3>Catarata</h3><p>Avaliação com especialista em catarata e orientação sobre o tratamento indicado.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="medicos">
+  <div class="wrap">
+    <div class="cab reveal"><span class="tag">Corpo clínico</span><h2>Quem cuida da sua visão</h2></div>
+    <div class="meds">
+      <div class="med reveal">
+        <div class="ini">DM</div>
+        <h3>Dra. Débora Malavazi</h3>
+        <div class="esp">Médica Oftalmologista · CRM-RJ 52 976741</div>
+        <ul><li>Retina Clínica (RQE)</li><li>Médica Oftalmologista da Marinha do Brasil</li><li>Atendimento atencioso, detalhista e paciente</li></ul>
+        <a class="ig" href="https://www.instagram.com/dradeboramalavazi/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@dradeboramalavazi</a>
+      </div>
+      <div class="med reveal">
+        <div class="ini">ST</div>
+        <h3>Dr. Saymom Toledo</h3>
+        <div class="esp">Médico Oftalmologista</div>
+        <ul><li>Especialista em catarata e retina</li><li>Professor de cirurgias no Hospital do Olho do Rio de Janeiro</li><li>Membro da Sociedade de Retina</li></ul>
+        <a class="ig" href="https://www.instagram.com/drsaymomtoledo/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@drsaymomtoledo</a>
+      </div>
+    </div>
+    <p class="extra reveal">No mesmo espaço também funciona o consultório de pediatria e neonatologia da Dra. Laís Campos.</p>
+  </div>
+</section>
+
+<section style="background:#f7fafc">
+  <div class="wrap">
+    <div class="cab centro reveal"><span class="tag">Como funciona</span><h2>Agendar é simples</h2></div>
+    <div class="passos">
+      <div class="passo reveal"><h3>Chame no WhatsApp</h3><p>Fale com a central de atendimento pelo (21) 99116-4490 e escolha o melhor horário.</p></div>
+      <div class="passo reveal"><h3>Venha ao consultório</h3><p>Rua Miguel de Frias, 51, sala 503, em Icaraí. Atendimento de segunda a sexta, das 8h às 18h.</p></div>
+      <div class="passo reveal"><h3>Consulta completa</h3><p>Exame detalhado, explicação clara do diagnóstico e orientação sobre o tratamento.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="estr" id="estrutura">
+  <div class="wrap">
+    <div class="cab reveal"><span class="tag">Estrutura</span><h2>Pensado para o seu conforto</h2><p>Equipamentos de qualidade em um espaço aconchegante, no coração de Icaraí.</p></div>
+    <div class="grid">
+      <div class="item reveal"><h3><svg><use href="#i-acess"/></svg>Acessibilidade</h3><p>Entrada e estacionamento com acessibilidade para pessoas em cadeira de rodas.</p></div>
+      <div class="item reveal"><h3><svg><use href="#i-cartao"/></svg>Pagamento</h3><p>Cartão de crédito, cartão de débito e pagamento por aproximação (NFC).</p></div>
+      <div class="item reveal"><h3><svg><use href="#i-carro"/></svg>Estacionamento</h3><p>Opções de estacionamento pago, coberto e descoberto, nas proximidades.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="avaliacoes">
+  <div class="wrap">
+    <div class="cab centro reveal"><span class="tag">Avaliações</span><h2>O que dizem os pacientes</h2>
+      <div class="resumo"><strong>5,0</strong><span class="est">★★★★★</span><span style="color:var(--sub)">24 avaliações no Google</span></div></div>
+    <div class="deps">
+      <div class="dep reveal"><span class="est">★★★★★</span><p>“Fui muito bem atendido pelo Dr. Saymon. Exame bem detalhado e já estou melhorando da queratite. Recomendo com empenho.”</p><b>Enio Monçôres Carvalho<small>Avaliação no Google</small></b></div>
+      <div class="dep reveal"><span class="est">★★★★★</span><p>“Excelente profissional, escuta atenciosa, muito simpática, explica todos os procedimentos para o paciente antes de executar, calma e com certeza recomendo a Dra. Débora Toledo.”</p><b>Valesca Valentim<small>Avaliação no Google</small></b></div>
+      <div class="dep reveal"><span class="est">★★★★★</span><p>“Experiência excelente! A Dra. Débora é, de cara, uma profissional fora da curva, além de ser gente finíssima! Aparelhos de qualidade e espaço bastante aconchegante.”</p><b>Jessé Neves<small>Avaliação no Google</small></b></div>
+      <div class="dep reveal"><span class="est">★★★★★</span><p>“O atendimento da recepção foi perfeita e do médico também. O Dr. Saymom abriu uma vaga para me atender de urgência e encaminhou o devido tratamento.”</p><b>Vanessa Cordeiro<small>Avaliação no Google</small></b></div>
+      <div class="dep reveal"><span class="est">★★★★★</span><p>“Atendimento de extrema qualidade! Doutora Débora é uma excelente profissional, cuidadosa e precisa! Todos os equipamentos de primeira qualidade, e possui ótimos horários de atendimento!”</p><b>Josué Neves<small>Avaliação no Google</small></b></div>
+      <div class="dep reveal"><span class="est">★★★★★</span><p>“Equipamentos de ponta e uma consulta muito didática e confiável.”</p><b>Vinicius Meneguitte<small>Avaliação no Google</small></b></div>
+    </div>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="tag">Contato</span>
+      <h2>Agende sua revisão anual</h2>
+      <div class="info">
+        <div><svg><use href="#i-zap"/></svg><div><b>WhatsApp</b><a href="https://wa.me/5521991164490?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">(21) 99116-4490</a></div></div>
+        <div><svg><use href="#i-pin"/></svg><div><b>Endereço</b><span>R. Miguel de Frias, 51 – Sala 503<br>Icaraí, Niterói – RJ, 24220-008</span></div></div>
+        <div><svg><use href="#i-relogio"/></svg><div><b>Horário</b><div class="horas"><span>Segunda a sexta</span><span>08:00 – 18:00</span><span>Sábado e domingo</span><span>Fechado</span></div><span style="font-size:.85rem">É recomendado marcar hora.</span></div></div>
+        <div><svg><use href="#i-ig"/></svg><div><b>Instagram</b><a href="https://www.instagram.com/oftalmologiamalavazietoledo/" target="_blank" rel="noopener">@oftalmologiamalavazietoledo</a></div></div>
+      </div>
+      <a class="btn btn-zap" href="https://wa.me/5521991164490?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Agendar pelo WhatsApp</a>
+    </div>
+    <div class="mapa reveal"><iframe src="https://www.google.com/maps?q=Oftalmologia+Malavazi+e+Toledo,+R.+Miguel+de+Frias,+51+-+Icara%C3%AD,+Niter%C3%B3i+-+RJ&output=embed" loading="lazy" title="Mapa do consultório"></iframe></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a href="#" class="marca"><img src="img/logo-branca.png" alt="" style="height:26px"><b>Malavazi &amp; Toledo<small>Oftalmologia</small></b></a>
+    <span>© 2026 Oftalmologia Malavazi &amp; Toledo · Site por <a href="https://firmiano.com.br" target="_blank" rel="noopener">Firmiano</a></span>
+  </div>
+</footer>
+
+<a class="flut" href="https://wa.me/5521991164490?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-zap"/></svg></a>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
